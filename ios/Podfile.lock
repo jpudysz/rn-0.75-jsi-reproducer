@@ -7,27 +7,6 @@ PODS:
   - hermes-engine (0.75.4):
     - hermes-engine/Pre-built (= 0.75.4)
   - hermes-engine/Pre-built (0.75.4)
-  - NitroModules (0.13.0):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.01.01.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
   - RCT-Folly (2024.01.01.00):
     - boost
     - DoubleConversion
@@ -1519,28 +1498,6 @@ PODS:
     - React-perflogger (= 0.75.4)
     - React-utils (= 0.75.4)
   - SocketRocket (0.7.0)
-  - Unistyles (3.0.0-alpha.28):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - NitroModules
-    - RCT-Folly (= 2024.01.01.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1550,7 +1507,6 @@ DEPENDENCIES:
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
-  - NitroModules (from `../node_modules/react-native-nitro-modules`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTDeprecation (from `../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
@@ -1608,7 +1564,6 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - Unistyles (from `../node_modules/react-native-unistyles`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1629,8 +1584,6 @@ EXTERNAL SOURCES:
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
     :tag: hermes-2024-08-15-RNv0.75.1-4b3bf912cc0f705b51b71ce1a5b8bd79b93a451b
-  NitroModules:
-    :path: "../node_modules/react-native-nitro-modules"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTDeprecation:
@@ -1741,8 +1694,6 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
-  Unistyles:
-    :path: "../node_modules/react-native-unistyles"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1753,7 +1704,6 @@ SPEC CHECKSUMS:
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
   glog: 69ef571f3de08433d766d614c73a9838a06bf7eb
   hermes-engine: ea92f60f37dba025e293cbe4b4a548fd26b610a0
-  NitroModules: 44150c0a3fb5bc9255ef46d7159c866d1d1d89ef
   RCT-Folly: 4464f4d875961fce86008d45f4ecf6cef6de0740
   RCTDeprecation: 726d24248aeab6d7180dac71a936bbca6a994ed1
   RCTRequired: a94e7febda6db0345d207e854323c37e3a31d93b
@@ -1807,12 +1757,11 @@ SPEC CHECKSUMS:
   React-RuntimeHermes: c6b0afdf1f493621214eeb6517fb859ce7b21b81
   React-runtimescheduler: 84f0d876d254bce6917a277b3930eb9bc29df6c7
   React-utils: cbe8b8b3d7b2ac282e018e46f0e7b25cdc87c5a0
-  ReactCodegen: 4bcb34e6b5ebf6eef5cee34f55aa39991ea1c1f1
+  ReactCodegen: 0993fe6f0aab9fc911eab2083d4ab68108a89532
   ReactCommon: 6a952e50c2a4b694731d7682aaa6c79bc156e4ad
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
-  Unistyles: b7f351f1ed445de8977336de70cc3fc05251661c
-  Yoga: 055f92ad73f8c8600a93f0e25ac0b2344c3b07e6
+  Yoga: aa3df615739504eebb91925fc9c58b4922ea9a08
 
 PODFILE CHECKSUM: 71a689932e49f453bd6454dd189b45915dda66a0
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.0
